@@ -40,4 +40,4 @@ if st.button('乱数を生成'):
     # 最小値と最大値の間で乱数を生成
 for i in range(5):
     random_num = random.randint(min_val, max_val)
-    st.write(f'生成された乱数: {random_num}')
+st.write(f'生成された乱数: {random_num}')
